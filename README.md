@@ -13,5 +13,13 @@ by [Kaiwen Duan](https://scholar.google.com/citations?hl=zh-CN&user=TFHRaZUAAAAJ
 
 **If you encounter any problems in using our code, please contact Kaiwen Duan: kaiwenduan@outlook.com**
 
-##Performances
+## Performances
 ![Graph](https://github.com/Duankaiwen/LSNet/blob/main/code/resources/bbox.png)
+
+![Graph](https://github.com/Duankaiwen/LSNet/blob/main/code/resources/segm.png)
+
+![Graph](https://github.com/Duankaiwen/LSNet/blob/main/code/resources/pose.png)
+
+![Graph](https://github.com/Duankaiwen/LSNet/blob/main/code/resources/visualization.png)
+
+![Graph](![Graph](https://github.com/Duankaiwen/LSNet/blob/main/code/resources/visualization.png)
