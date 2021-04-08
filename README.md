@@ -17,15 +17,13 @@ by [Kaiwen Duan](https://scholar.google.com/citations?hl=zh-CN&user=TFHRaZUAAAAJ
 
 ## Performances
 <div align=center>
-<img src=https://github.com/Duankaiwen/LSNet/blob/main/code/resources/bbox.png width = "600" height = "400" alt="" align=center />
+<img src=https://github.com/Duankaiwen/LSNet/blob/main/code/resources/bbox.png width = "700" height = "500" alt="" align=center />
 </div>
-##
 
 ##
 <div align=center>
 <img src=https://github.com/Duankaiwen/LSNet/blob/main/code/resources/segm.png width = "500" height = "450" alt="" align=center />
 </div>
-##
 
 ##
 ![Graph](https://github.com/Duankaiwen/LSNet/blob/main/code/resources/pose.png)
