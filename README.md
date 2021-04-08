@@ -16,7 +16,7 @@ by [Kaiwen Duan](https://scholar.google.com/citations?hl=zh-CN&user=TFHRaZUAAAAJ
 ## Performances
 ![Graph](https://github.com/Duankaiwen/LSNet/blob/main/code/resources/bbox.png)
 
-![Graph](https://github.com/Duankaiwen/LSNet/blob/main/code/resources/segm.png)
+<img src=https://github.com/Duankaiwen/LSNet/blob/main/code/resources/segm.png width = "500" height = "350" alt="" align=center />
 
 ![Graph](https://github.com/Duankaiwen/LSNet/blob/main/code/resources/pose.png)
 
