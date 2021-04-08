@@ -34,5 +34,5 @@ by [Kaiwen Duan](https://scholar.google.com/citations?hl=zh-CN&user=TFHRaZUAAAAJ
 ##
 
 ##
-![Graph](https://github.com/Duankaiwen/LSNet/blob/main/code/resources/compare.png)
+<img src=https://github.com/Duankaiwen/LSNet/blob/main/code/resources/compare.png width = "500" height = "700" alt="" align=center />
 ##
