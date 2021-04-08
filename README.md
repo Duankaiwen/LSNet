@@ -17,7 +17,7 @@ by [Kaiwen Duan](https://scholar.google.com/citations?hl=zh-CN&user=TFHRaZUAAAAJ
 
 ## Performances
 <div align=center>
-<img src=https://github.com/Duankaiwen/LSNet/blob/main/code/resources/bbox.png width = "500" height = "6000" alt="" align=center />
+<img src=https://github.com/Duankaiwen/LSNet/blob/main/code/resources/bbox.png width = "200" height = "400" alt="" align=center />
 </div>
 ##
 
