@@ -16,15 +16,25 @@ by [Kaiwen Duan](https://scholar.google.com/citations?hl=zh-CN&user=TFHRaZUAAAAJ
 **If you encounter any problems in using our code, please contact Kaiwen Duan: kaiwenduan@outlook.com**
 
 ## Performances
-![Graph](https://github.com/Duankaiwen/LSNet/blob/main/code/resources/bbox.png)
+<div align=center>
+<img src=https://github.com/Duankaiwen/LSNet/blob/main/code/resources/bbox.png width = "500" height = "6000" alt="" align=center />
+</div>
+##
 
 ##
 <div align=center>
 <img src=https://github.com/Duankaiwen/LSNet/blob/main/code/resources/segm.png width = "500" height = "450" alt="" align=center />
 </div>
+##
 
+##
 ![Graph](https://github.com/Duankaiwen/LSNet/blob/main/code/resources/pose.png)
+##
 
+##
 ![Graph](https://github.com/Duankaiwen/LSNet/blob/main/code/resources/visualization.png)
+##
 
+##
 ![Graph](https://github.com/Duankaiwen/LSNet/blob/main/code/resources/compare.png)
+##
