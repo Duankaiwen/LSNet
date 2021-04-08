@@ -19,8 +19,8 @@ by [Kaiwen Duan](https://scholar.google.com/citations?hl=zh-CN&user=TFHRaZUAAAAJ
 <div align=center>
 <img src=https://github.com/Duankaiwen/LSNet/blob/main/code/resources/bbox.png width = "700" height = "500" alt="" align=center />
 </div>
-
-##
+<hr/>
+<hr/>
 <div align=center>
 <img src=https://github.com/Duankaiwen/LSNet/blob/main/code/resources/segm.png width = "450" height = "400" alt="" align=center />
 </div>
