@@ -22,4 +22,4 @@ by [Kaiwen Duan](https://scholar.google.com/citations?hl=zh-CN&user=TFHRaZUAAAAJ
 
 ![Graph](https://github.com/Duankaiwen/LSNet/blob/main/code/resources/visualization.png)
 
-![Graph](![Graph](https://github.com/Duankaiwen/LSNet/blob/main/code/resources/visualization.png)
+![Graph](https://github.com/Duankaiwen/LSNet/blob/main/code/resources/compare.png)
