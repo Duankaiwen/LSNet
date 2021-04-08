@@ -24,17 +24,16 @@ by [Kaiwen Duan](https://scholar.google.com/citations?hl=zh-CN&user=TFHRaZUAAAAJ
 <div align=center>
 <img src=https://github.com/Duankaiwen/LSNet/blob/main/code/resources/segm.png width = "450" height = "400" alt="" align=center />
 </div>
-
-##
+<hr/>
+<hr/>
 ![Graph](https://github.com/Duankaiwen/LSNet/blob/main/code/resources/pose.png)
-##
-
-##
+<hr/>
+<hr/>
 ![Graph](https://github.com/Duankaiwen/LSNet/blob/main/code/resources/visualization.png)
-##
-
-##
+<hr/>
+<hr/>
 <div align=center>
 <img src=https://github.com/Duankaiwen/LSNet/blob/main/code/resources/compare.png width = "500" height = "700" alt="" align=center />
  </div>
-##
+<hr/>
+<hr/>
