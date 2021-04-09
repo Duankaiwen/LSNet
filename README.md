@@ -75,19 +75,25 @@ by [Kaiwen Duan](https://scholar.google.com/citations?hl=zh-CN&user=TFHRaZUAAAAJ
 
 *Comparison of LSNet to the sate-of-the-art methods in instance segmentation task on the COCO test-dev set. Our LSNet achieves the state-of-the-art accuracy for contour-based instance segmentation. ‘R’ - ResNet, ‘X’ - ResNeXt, ‘HG’ - Hourglass, ‘R2’ - Res2Net, * -  multi-scale testing.*
 
-![Graph](https://github.com/Duankaiwen/LSNet/blob/main/code/resources/pose.png)
+## Keypoints AP(%) on COCO test-dev
+|Method               |  Backbone       | epoch |  AP  | AP<sub>50</sub> | AP<sub>75</sub> | AP<sub>M</sub> | AP<sub>L</sub> |
+| :-------------      | :-------:       | :---: | :--: | :-------------: | :-------------: | :------------: | :------------: | 
+|                     |   
+| *Heatmap-based:*    |   
+| CenterNet-jd        |  DLA-34         | 320   | 57.9 |      84.7       |      63.1       |       52.5     |      67.4      |
+| OpenPose            |  VGG-19         | -     | 61.8 |      84.9       |      67.5       |       58.0     |      70.4      |
+| Pose-AE             |  HG             | 300   | 62.8 |      84.6       |      69.2       |       57.5     |      70.6      |
+| CenterNet-jd        |  HG104          | 150   | 63.0 |      86.8       |      69.6       |       58.9     |      70.4      |
+| Mask R-CNN          |  R-50           | 28    | 63.1 |      87.3       |      68.7       |       57.8     |      71.4      |
+| PersonLab           |  R-152          | >1000 | 66.5 |      85.5       |      71.3       |       62.3     |      70.0      |
+| HRNet               |  HRNet-W32      | 210   | 74.9 |      92.5       |      82.8       |       71.3     |      80.9      |
+|                     |   
+| *Regression-based:* |
+| CenterNet-reg [66]  |  DLA-34         | 320   | 51.7 |      81.4       |       55.2      |       44.6     |      63.0      |
+| CenterNet-reg [66]  |  HG-104         | 150   | 55.0 |      83.5       |       59.7      |       49.4     |      64.0      |
+| LSNet w/ obj-box    |  X-101-64x4d-DCN| 60    | 55.7 |      81.3       |       61.0      |       52.9     |      60.5      |
+| LSNet w/ kps-box    |  X-101-64x4d-DCN| 20    | 59.0 |      83.6       |       65.2      |       53.3     |      67.9      |
 
-<hr/>
-<hr/>
-
-![Graph](https://github.com/Duankaiwen/LSNet/blob/main/code/resources/visualization.png)
-
-<hr/>
-<hr/>
-
-<div align=center>
-<img src=https://github.com/Duankaiwen/LSNet/blob/main/code/resources/compare.png width = "500" height = "700" alt="" align=center />
- </div>
- 
-<hr/>
-<hr/>
+*Comparison of LSNet to the sate-of-the-art methods in pose estimation task on the COCO test-dev set. LSNet
+predict the keypoints by regression. ‘obj-box’ and ‘kps-box’ denote the object bounding boxes and the keypoint-boxes,
+respectively. For LSNet w/ kps-box, we fine-tune the model from the LSNet w/ kps-box for another 20 epochs.*
