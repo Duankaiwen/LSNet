@@ -91,6 +91,7 @@ by [Kaiwen Duan](https://scholar.google.com/citations?hl=zh-CN&user=TFHRaZUAAAAJ
 | *Regression-based:* |
 | CenterNet-reg [66]  |  DLA-34         | 320   | 51.7 |      81.4       |       55.2      |       44.6     |      63.0      |
 | CenterNet-reg [66]  |  HG-104         | 150   | 55.0 |      83.5       |       59.7      |       49.4     |      64.0      |
+|                     |
 | LSNet w/ obj-box    |  X-101-64x4d-DCN| 60    | 55.7 |      81.3       |       61.0      |       52.9     |      60.5      |
 | LSNet w/ kps-box    |  X-101-64x4d-DCN| 20    | 59.0 |      83.6       |       65.2      |       53.3     |      67.9      |
 
