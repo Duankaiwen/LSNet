@@ -52,12 +52,27 @@ by [Kaiwen Duan](https://scholar.google.com/citations?hl=zh-CN&user=TFHRaZUAAAAJ
 
 *A comparison between LSNet and the sate-of-the-art methods in object detection on the MS-COCO test-dev set. LSNet surpasses all competitors in the anchor-free group. The abbreviations are: ‘R’ – ResNet, ‘X’ – ResNeXt, ‘HG’ – Hourglass network, ‘R2’ – Res2Net, ‘CPV’ – corner point verification, ‘MStrain’ – multi-scale training, ‘*’ – multi-scale testing.*
              
-<div align=center>
-<img src=https://github.com/Duankaiwen/LSNet/blob/main/code/resources/segm.png width = "450" height = "400" alt="" align=center />
-</div>
+## Segm AP(%) on COCO test-dev
+|Method            |  Backbone       | epoch |  AP  | AP<sub>50</sub> | AP<sub>75</sub> | AP<sub>S</sub> | AP<sub>M</sub> | AP<sub>L</sub> |
+| :-------------   | :-------:       | :---: | :--: | :-------------: | :-------------: | :------------: | :------------: | :------------: | 
+|                  |   
+| *Pixel-based:*   |   
+| YOLACT           | R-101           | 48    | 31.2 |      50.6       |     32.8        |       12.1      |      33.3      |      47.1     |
+| TensorMask       | R-101           | 72    | 37.1 |      59.3       |     39.4        |       17.1      |      39.1      |      51.6     |
+| Mask R-CNN       | X-101-32x4d     | 12    | 37.1 |      60.0       |     39.4        |       16.9      |      39.9      |      53.5     |
+| HTC              | X-101-64x4d     | 20    | 41.2 |      63.9       |     44.7        |       22.8      |      43.9      |      54.6     |
+| DetectoRS*       | X-101-64x4d     | 40    | 48.5 |      72.0       |     53.3        |       31.6      |      50.9      |      61.5     |
+|                  |   
+| *Contour-based:* |
+| ExtremeNet       | HG-104          | 100   | 18.9 |      44.5       |      13.7       |        10.4     |      20.4      |      28.3     |
+| DeepSnake        | DLA-34          | 120   | 30.3 |       -         |       -         |         -       |       -        |        -      |
+| PolarMask        | X-101-64x4d-DCN | 24    | 36.2 |      59.4       |      37.7       |        17.8     |      37.7      |      51.5     |
+|                  |
+| LSNet            | X-101-64x4d-DCN | 30    | 37.6 |      64.0       |      38.3       |        22.1     |      39.9      |      49.1     |
+| LSNet            | R2-101-DCN      | 30    | 38.0 |      64.6       |      39.0       |        22.4     |      40.6      |      49.2     |
+| LSNet*           | X-101-64x4d-DCN | 30    | 39.7 |      65.5       |      41.3       |        25.5     |      41.3      |      50.4     |
+| LSNet*           | R2-101-DCN      | 30    | 40.2 |      66.2       |      42.1       |        25.8     |      42.2      |      51.0     |
 
-<hr/>
-<hr/>
 
 ![Graph](https://github.com/Duankaiwen/LSNet/blob/main/code/resources/pose.png)
 
