@@ -133,5 +133,37 @@ The dataset directory should be like this:
             ├── test2017
 ```
 
+```
+cd code/cocoapi
+```
+
+and
+
+```
+python setup.py develop
+```
+
+```
+cd code/mmcv
+```
+
+and
+
+```
+pip install -e.
+```
+
+```
+cd code
+```
+
+and
+
+```
+python setup.py develop
+```
+
+
+
 
 
