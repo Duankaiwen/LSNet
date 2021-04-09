@@ -6,7 +6,7 @@ by [Kaiwen Duan](https://scholar.google.com/citations?hl=zh-CN&user=TFHRaZUAAAAJ
 **The code to train and evaluate the proposed LSNet is available here. For more technical details, please refer to our [arXiv paper](xxx).**
 
  <center><img src="https://github.com/Duankaiwen/LSNet/blob/main/code/resources/lsvr.png" ...></center>
- <left>The location-sensitive visual recognition tasks, including object detection, instance segmentation, and human pose estimation, can be formulated into localizing an  anchor point (in red) and a set of landmarks (in green). Our work aims to offer a unified framework for these tasks.</left>
+ <center>The location-sensitive visual recognition tasks, including object detection, instance segmentation, and human pose estimation, can be formulated into localizing an  anchor point (in red) and a set of landmarks (in green). Our work aims to offer a unified framework for these tasks.</center>
 
 ## Abstract
 
