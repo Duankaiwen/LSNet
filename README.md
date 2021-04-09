@@ -134,7 +134,7 @@ The dataset directory should be like this:
 ```
 
 ```
-cd code/cocoapi
+cd code/cocoapi  and python setup.py develop
 ```
 
 and
