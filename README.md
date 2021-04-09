@@ -17,13 +17,18 @@ by [Kaiwen Duan](https://scholar.google.com/citations?hl=zh-CN&user=TFHRaZUAAAAJ
 
 **If you encounter any problems in using our code, please contact Kaiwen Duan: kaiwenduan@outlook.com**
 
-## Performances
-<div align=center>
-<img src=https://github.com/Duankaiwen/LSNet/blob/main/code/resources/bbox.png width = "700" height = "500" alt="" align=center />
-</div>
+## Bbox AP(%) on COCO test-dev
+|                         Backbone                          |                          Input Size                          |  AP  | AP<sub>50</sub> | AP<sub>75</sub> | AP<sub>S</sub> | AP<sub>M</sub> | AP<sub>L</sub> |
+| :-------------------------------------------------------: | :----------------------------------------------------------: | :--: | :-------------: | :-------------: | :------------: | :------------: | :------------: |
+|                           DLA34                           |                             ori.                             | 41.7 |      58.9       |      44.9       |      20.2      |      44.1      |      56.4      |
+| DLA34  ![](http://latex.codecogs.com/gif.latex?\\ddagger) | <a href="https://www.codecogs.com/eqnedit.php?latex=\leq&space;1.8\times" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\leq&space;1.8\times" title="\leq 1.8\times" /></a> | 44.5 |      62.3       |      48.3       |      25.2      |      46.7      |      58.2      |                                                           |
+|                           HG52                            |                             ori.                             | 43.9 |      61.6       |      47.5       |      23.9      |      46.3      |      57.1      |
+| HG52  ![](http://latex.codecogs.com/gif.latex?\\ddagger)  | <a href="https://www.codecogs.com/eqnedit.php?latex=\leq&space;1.8\times" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\leq&space;1.8\times" title="\leq 1.8\times" /></a> | 45.8 |      63.9       |      49.7       |      26.8      |      48.4      |      59.4      |                                                           |
+|                           HG104                           |                             ori.                             | 47.0 |      65.0       |      51.0       |      26.5      |      50.2      |      60.7      |
+| HG104  ![](http://latex.codecogs.com/gif.latex?\\ddagger) | <a href="https://www.codecogs.com/eqnedit.php?latex=\leq&space;1.8\times" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\leq&space;1.8\times" title="\leq 1.8\times" /></a> | 49.2 |      67.3       |      53.7       |      31.0      |      51.9      |      62.4      |      
 
-<hr/>
-<hr/>
+|
+*The location-sensitive visual recognition tasks, including object detection, instance segmentation, and human pose estimation, can be formulated into localizing an anchor point (in red) and a set of landmarks (in green). Our work aims to offer a unified framework for these tasks.*
 
 <div align=center>
 <img src=https://github.com/Duankaiwen/LSNet/blob/main/code/resources/segm.png width = "450" height = "400" alt="" align=center />
