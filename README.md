@@ -21,7 +21,8 @@ by [Kaiwen Duan](https://scholar.google.com/citations?hl=zh-CN&user=TFHRaZUAAAAJ
 |Method          |  Backbone       | epoch | MS<sub>train<sub> |  AP  | AP<sub>50</sub> | AP<sub>75</sub> | AP<sub>S</sub> | AP<sub>M</sub> | AP<sub>L</sub> |
 | :------------- | :-------:       | :---: | :---------------: | :--: | :-------------: | :-------------: | :------------: | :------------: | :------------: | 
 |                |   
-| *Anchor-based:*|          
+| *Anchor-based:*|   
+|                |   
 |Libra R-CNN     | X-101-64x4d     | 12  |      N            | 43.0 |     64.0        |       47.0      |      25.3      |      45.6      |      54.6      |
 | AB+FSAF*       | X-101-64x4d     | 18  |      Y            | 44.6 |     65.2        |       48.6      |      29.7      |      47.1      |      54.6      |
 | FreeAnchor*    | X-101-32x8d     | 24  |      Y            | 47.3 |     66.3        |       51.5      |      30.6      |      50.4      |      59.0      |
@@ -30,8 +31,9 @@ by [Kaiwen Duan](https://scholar.google.com/citations?hl=zh-CN&user=TFHRaZUAAAAJ
 | PAA*           | X-101-64x4d-DCN | 24  |      Y            | 51.4 |     69.7        |       57.0      |      34.0      |      53.8      |      64.0      |
 | GFLV2*         | R2-101-DCN      | 24  |      Y            | 53.3 |     70.9        |       59.2      |      35.7      |      56.1      |      65.6      |
 | YOLOv4-P7*     | CSP-P7          | 450 |      Y            | 56.0 |     73.3        |       61.2      |      38.9      |      60.0      |      68.6      |
-
-| *Anchor-free:*|     
+|                |   
+| *Anchor-free:* |
+|                |   
              
 <div align=center>
 <img src=https://github.com/Duankaiwen/LSNet/blob/main/code/resources/segm.png width = "450" height = "400" alt="" align=center />
