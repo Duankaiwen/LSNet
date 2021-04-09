@@ -109,7 +109,7 @@ respectively. For LSNet w/ kps-box, we fine-tune the model from the LSNet w/ kps
 
 
 <div align=center>
-<img src=https://github.com/Duankaiwen/LSNet/blob/main/code/resources/pose1.png width = "600" height = "500" alt="" align=center />
+<img src=https://github.com/Duankaiwen/LSNet/blob/main/code/resources/pose1.png width = "400" height = "350" alt="" align=center />
   
 *We compared with the CenterNet to show that our LSNet w/ ‘obj-box’ tends to predict more human pose of small scales, which are not annotated on the dataset. Only pose results with scores higher than 0:3 are shown for both methods.*
 </div>
