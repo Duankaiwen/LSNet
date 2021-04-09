@@ -122,4 +122,16 @@ assign training samples. Although LSNet with keypoint-boxes enjoys higher AP sco
 human instances is weakened.*
 </div>
 
+## Installation.
+The dataset directory should be like this:
+```plain
+├── data
+│   ├── coco
+│   │   ├── annotations
+│   │   ├── images
+            ├── val2017
+            ├── test2017
+```
+
+
 
