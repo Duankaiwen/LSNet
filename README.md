@@ -21,7 +21,7 @@ by [Kaiwen Duan](https://scholar.google.com/citations?hl=zh-CN&user=TFHRaZUAAAAJ
 |Method | Backbone | epoch | MS<sub>train<sub> |  FPS  |  AP  | AP<sub>50</sub> | AP<sub>75</sub> | AP<sub>S</sub> | AP<sub>M</sub> | AP<sub>L</sub> |
 | :---: | :------: | :--: | :----------------: | :---: | :--: | :-------------: | :-------------: | :------------: | :------------: | :------------: |
 | :---: | :------: | :--: | :----------------: | :---: | :--: | :-------------: | :-------------: | :------------: | :------------: | :------------: |
-| Anchor-based:                                                                                                                                      |
+                                                                                                                             |
 
 *The location-sensitive visual recognition tasks, including object detection, instance segmentation, and human pose estimation, can be formulated into localizing an anchor point (in red) and a set of landmarks (in green). Our work aims to offer a unified framework for these tasks.*
 
