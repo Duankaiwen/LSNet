@@ -145,6 +145,8 @@ The dataset directory should be like this:
 - ```cd code```
 - ```python setup.py develop```
 
+## Training and Evaluation
+Our PolarMask is based on [mmdetection](https://github.com/open-mmlab/mmdetection). Please check [with existing dataset](https://github.com/open-mmlab/mmdetection/blob/master/docs/1_exist_data_model.md) for Training and Evaluation.
 
 
 
