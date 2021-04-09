@@ -98,3 +98,13 @@ by [Kaiwen Duan](https://scholar.google.com/citations?hl=zh-CN&user=TFHRaZUAAAAJ
 *Comparison of LSNet to the sate-of-the-art methods in pose estimation task on the COCO test-dev set. LSNet
 predict the keypoints by regression. ‘obj-box’ and ‘kps-box’ denote the object bounding boxes and the keypoint-boxes,
 respectively. For LSNet w/ kps-box, we fine-tune the model from the LSNet w/ kps-box for another 20 epochs.*
+
+## Visualization
+
+<div align=center>
+<img src=https://github.com/Duankaiwen/LSNet/blob/main/code/resources/dect-segm-pose.png width = "800" height = "400" alt="" align=center />
+  
+*Some location-sensitive visual recognition results on the MS-COCO validation set.*
+</div>
+
+
