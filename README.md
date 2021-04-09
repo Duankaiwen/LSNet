@@ -5,7 +5,8 @@ by [Kaiwen Duan](https://scholar.google.com/citations?hl=zh-CN&user=TFHRaZUAAAAJ
 
 **The code to train and evaluate the proposed LSNet is available here. For more technical details, please refer to our [arXiv paper](xxx).**
 
-![name of the image](https://github.com/Duankaiwen/LSNet/blob/main/code/resources/lsvr.png)
+![](https://github.com/Duankaiwen/LSNet/blob/main/code/resources/lsvr.png)
+*image_caption*
 
 ## Abstract
 
