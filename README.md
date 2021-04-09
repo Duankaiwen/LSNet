@@ -32,8 +32,18 @@ by [Kaiwen Duan](https://scholar.google.com/citations?hl=zh-CN&user=TFHRaZUAAAAJ
 | YOLOv4-P7*     | CSP-P7          | 450 |      Y            | 56.0 |     73.3        |       61.2      |      38.9      |      60.0      |      68.6      |
 |                |   
 | *Anchor-free:* |
-| ExtremeNet     | HG-104          |200  |      Y            | 43.2 |     59.8        |       46.4      |      24.1       |     46.0      |      57.1      | 
-|RepPointsV1      R-101-DCN 24 Y 46.5 67.4 50.9 30.3 49.7 57.1
+| ExtremeNet*    | HG-104          | 200 |      Y            | 43.2 |     59.8        |       46.4      |      24.1       |     46.0      |      57.1      | 
+| RepPointsV1*   | R-101-DCN       | 24  |      Y            | 46.5 |     67.4        |       50.9      |      30.3       |     49.7      |      57.1      |
+| SAPD           | X-101-64x4d-DCN | 24  |      Y            | 47.4 |     67.4        |       51.1      |      28.1       |     50.3      |      61.5      |
+| CornerNet*     | HG-104          | 200 |      Y            | 42.1 |     57.8        |       45.3      |      20.8       |     44.8      |      56.7      |
+| DETR           | R-101           | 500 |      Y            | 44.9 |     64.7        |       47.7      |      23.7       |     49.5      |      62.3      |
+| CenterNet*     | HG-104          | 190 |      Y            | 47.0 |     64.5        |       50.7      |      28.9       |     49.9      |      58.9      |
+| CPNDet*        | HG-104          | 100 |      Y            | 49.2 |     67.4        |       53.7      |      31.0       |     51.9      |      62.4      |
+| BorderDet*     | X-101-64x4d-DCN | 24  |      Y            | 50.3 |     68.9        |       55.2      |      32.8       |     52.8      |      62.3      |
+| FCOS-BiFPN     | X-101-32x8-DCN  | 24  |      Y            | 50.4 |     68.9        |       55.0      |      33.2       |     53.0      |      62.7      |
+| RepPointsV2*   | X-101-64x4d-DCN | 24  |      Y            | 52.1 |     70.1        |       57.5      |      34.5       |     54.6      |      63.6      |
+| LSNet          | R-50            | 24  |      Y            | 44.8 |     64.1        |       48.8      |      26.6       |     47.7      |      55.7      |
+
              
 <div align=center>
 <img src=https://github.com/Duankaiwen/LSNet/blob/main/code/resources/segm.png width = "450" height = "400" alt="" align=center />
