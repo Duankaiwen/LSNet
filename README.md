@@ -7,6 +7,8 @@ by [Kaiwen Duan](https://scholar.google.com/citations?hl=zh-CN&user=TFHRaZUAAAAJ
 
 <div align=center>
 <img src=https://github.com/Duankaiwen/LSNet/blob/main/code/resources/lsvr.png width = "700" height = "500" alt="" align=center />
+  
+  
 *image_caption*
 </div>
 
