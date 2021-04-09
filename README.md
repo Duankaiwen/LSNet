@@ -18,10 +18,10 @@ by [Kaiwen Duan](https://scholar.google.com/citations?hl=zh-CN&user=TFHRaZUAAAAJ
 **If you encounter any problems in using our code, please contact Kaiwen Duan: kaiwenduan@outlook.com**
 
 ## Bbox AP(%) on COCO test-dev
-|Method      | Backbone | epoch | MS<sub>train<sub> |  FPS  |  AP  | AP<sub>50</sub> | AP<sub>75</sub> | AP<sub>S</sub> | AP<sub>M</sub> | AP<sub>L</sub> |
-| :--------- | :------: | :---: | :---------------: | :---: | :--: | :-------------: | :-------------: | :------------: | :------------: | :------------: |
-|            |          |       |                   |       |      |                 |                 |                |                |                |
-|<sub>Anchor-based</sub> |          |       |                   |       |      |                 |                 |                |                |                |
+|Method      |  Backbone | epoch | MS<sub>train<sub> |  FPS  |  AP  | AP<sub>50</sub> | AP<sub>75</sub> | AP<sub>S</sub> | AP<sub>M</sub> | AP<sub>L</sub> |
+| :--------- | :-------: | :---: | :---------------: | :---: | :--: | :-------------: | :-------------: | :------------: | :------------: | :------------: |
+|            |           |       |                   |       |      |                 |                 |                |                |                |
+|<sub>Anchor-based</sub> |       |                   |       |      |                 |                 |                |                |                | 
 
 
                                                                                                                        
