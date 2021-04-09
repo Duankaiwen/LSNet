@@ -24,11 +24,12 @@ by [Kaiwen Duan](https://scholar.google.com/citations?hl=zh-CN&user=TFHRaZUAAAAJ
 | *Anchor-based:* <td colspan=3>                                                                                        
 |Libra R-CNN  | X-101-64x4d | 12  |      Y            |  8.5  | 43.0 |     64.0        |       47.0      |      25.3      |      45.6      |      54.6      |
 
-|
-|1<td rowspan="2">3</td>
-|2 
-|4|5| 
-             
+
+|Method          |  Backbone | epoch | MS<sub>train<sub> |  FPS  |  AP  | AP<sub>50</sub> | AP<sub>75</sub> | AP<sub>S</sub> | AP<sub>M</sub> | AP<sub>L</sub> |
+| :------------- | :-------: | :---: | :---------------: | :---: | :--: | :-------------: | :-------------: | :------------: | :------------: | :------------: | 
+|                |   
+| *Anchor-based:* <td colspan=3>                                                                                        
+|Libra R-CNN  | X-101-64x4d | 12  |      Y            |  8.5  | 43.0 |     64.0        |       47.0      |      25.3      |      45.6      |      54.6      |           
              
 <div align=center>
 <img src=https://github.com/Duankaiwen/LSNet/blob/main/code/resources/segm.png width = "450" height = "400" alt="" align=center />
