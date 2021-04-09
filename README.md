@@ -30,6 +30,7 @@ by [Kaiwen Duan](https://scholar.google.com/citations?hl=zh-CN&user=TFHRaZUAAAAJ
 | PAA*           | X-101-64x4d-DCN | 24  |      Y            | 51.4 |     69.7        |       57.0      |      34.0      |      53.8      |      64.0      |
 | GFLV2*         | R2-101-DCN      | 24  |      Y            | 53.3 |     70.9        |       59.2      |      35.7      |      56.1      |      65.6      |
 | YOLOv4-P7*     | CSP-P7          | 450 |      Y            | 56.0 |     73.3        |       61.2      |      38.9      |      60.0      |      68.6      |
+
 | *Anchor-free:*|     
              
 <div align=center>
