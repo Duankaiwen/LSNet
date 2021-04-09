@@ -18,12 +18,16 @@ by [Kaiwen Duan](https://scholar.google.com/citations?hl=zh-CN&user=TFHRaZUAAAAJ
 **If you encounter any problems in using our code, please contact Kaiwen Duan: kaiwenduan@outlook.com**
 
 ## Bbox AP(%) on COCO test-dev
-|Method          |  Backbone | epoch | MS<sub>train<sub> |  FPS  |  AP  | AP<sub>50</sub> | AP<sub>75</sub> | AP<sub>S</sub> | AP<sub>M</sub> | AP<sub>L</sub> |
-| :------------- | :-------: | :---: | :---------------: | :---: | :--: | :-------------: | :-------------: | :------------: | :------------: | :------------: | 
+|Method          |  Backbone | epoch | MS<sub>train<sub> |  AP  | AP<sub>50</sub> | AP<sub>75</sub> | AP<sub>S</sub> | AP<sub>M</sub> | AP<sub>L</sub> |
+| :------------- | :-------: | :---: | :---------------: | :--: | :-------------: | :-------------: | :------------: | :------------: | :------------: | 
 |                |   
-| *Anchor-based:*                                                                                                      
-|Libra R-CNN     | X-101-64x4d | 12  |      N            |  8.5  | 43.0 |     64.0        |       47.0      |      25.3      |      45.6      |      54.6      |
-| AB+FSAF        | X-101-64x4d | 18  |      Y            |   -   | 44.6 |     65.2        |       48.6      |      29.7      |      47.1      |      54.6      |
+| *Anchor-based:* -------------------------------------------------------------------------------------------------------------------------------------                       
+|Libra R-CNN     | X-101-64x4d | 12  |      N            | 43.0 |     64.0        |       47.0      |      25.3      |      45.6      |      54.6      |
+| AB+FSAF        | X-101-64x4d | 18  |      Y            | 44.6 |     65.2        |       48.6      |      29.7      |      47.1      |      54.6      |
+| FreeAnchor     | X-101-32x8d | 24  |      Y            | 44.6 |     65.2        |       48.6      |      29.7      |      47.1      |      54.6      |
+| AB+FSAF        | X-101-64x4d | 18  |      Y            | 44.6 |     65.2        |       48.6      |      29.7      |      47.1      |      54.6      |
+| AB+FSAF        | X-101-64x4d | 18  |      Y            | 44.6 |     65.2        |       48.6      |      29.7      |      47.1      |      54.6      |
+| AB+FSAF        | X-101-64x4d | 18  |      Y            | 44.6 |     65.2        |       48.6      |      29.7      |      47.1      |      54.6      |
              
 <div align=center>
 <img src=https://github.com/Duankaiwen/LSNet/blob/main/code/resources/segm.png width = "450" height = "400" alt="" align=center />
