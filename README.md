@@ -133,35 +133,18 @@ The dataset directory should be like this:
             ├── test2017
 ```
 
-```
-cd code/cocoapi  and python setup.py develop
-```
+##### 1. Installing cocoapi 
+- ```cd code/cocoapi```
+- ```python setup.py develop```
 
-and
+##### 2. Installing mmcv 
+- ```cd code/mmcv```
+- ```pip install -e.```
 
-```
-python setup.py develop
-```
+##### 3. Installing mmdet 
+- ```cd code```
+- ```python setup.py develop```
 
-```
-cd code/mmcv
-```
-
-and
-
-```
-pip install -e.
-```
-
-```
-cd code
-```
-
-and
-
-```
-python setup.py develop
-```
 
 
 
