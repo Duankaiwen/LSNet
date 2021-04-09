@@ -24,9 +24,10 @@ by [Kaiwen Duan](https://scholar.google.com/citations?hl=zh-CN&user=TFHRaZUAAAAJ
 | *Anchor-based:* <td colspan=3>                                                                                        
 |Libra R-CNN  | X-101-64x4d | 12  |      Y            |  8.5  | 43.0 |     64.0        |       47.0      |      25.3      |      45.6      |      54.6      |
 
-| Header ||
-|--------------|
-| 0 | 1 |
+|
+|1<td rowspan="2">3</td>
+|2 
+|4|5| 
              
              
 <div align=center>
