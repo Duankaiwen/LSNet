@@ -50,7 +50,7 @@ by [Kaiwen Duan](https://scholar.google.com/citations?hl=zh-CN&user=TFHRaZUAAAAJ
 | LSNet-CPV      | R2-101-DCN      | 24  |      Y            | 51.1 |     70.3        |       55.2      |      31.2       |     54.3      |      65.0      |
 | LSNet-CPV*     | R2-101-DCN      | 24  |      Y            | 53.5 |     71.1        |       59.2      |      35.2       |     56.4      |      65.8      |
 
-
+*A comparison between LSNet and the sate-of-the-art methods in object detection on the MS-COCO test-dev set. LSNet surpasses all competitors in the anchor-free group. The abbreviations are: ‘R’ – ResNet, ‘X’ – ResNeXt, ‘HG’ – Hourglass network, ‘R2’ – Res2Net, ‘CPV’ – corner point verification, ‘MStrain’ – multi-scale training, ‘*’ – multi-scale testing.*
              
 <div align=center>
 <img src=https://github.com/Duankaiwen/LSNet/blob/main/code/resources/segm.png width = "450" height = "400" alt="" align=center />
