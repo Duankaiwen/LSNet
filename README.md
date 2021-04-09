@@ -50,7 +50,7 @@ by [Kaiwen Duan](https://scholar.google.com/citations?hl=zh-CN&user=TFHRaZUAAAAJ
 | LSNet-CPV      | R2-101-DCN      | 24  |      Y            | 51.1 |     70.3        |       55.2      |      31.2       |     54.3      |      65.0      |
 | LSNet-CPV*     | R2-101-DCN      | 24  |      Y            | 53.5 |     71.1        |       59.2      |      35.2       |     56.4      |      65.8      |
 
-*A comparison between LSNet and the sate-of-the-art methods in object detection on the MS-COCO test-dev set. LSNet surpasses all competitors in the anchor-free group. The abbreviations are: ‘R’ – ResNet, ‘X’ – ResNeXt, ‘HG’ – Hourglass network, ‘R2’ – Res2Net, ‘CPV’ – corner point verification, ‘MStrain’ – multi-scale training, ‘*’ – multi-scale testing.*
+*A comparison between LSNet and the sate-of-the-art methods in object detection on the MS-COCO test-dev set. LSNet surpasses all competitors in the anchor-free group. The abbreviations are: ‘R’ – ResNet, ‘X’ – ResNeXt, ‘HG’ – Hourglass network, ‘R2’ – Res2Net, ‘CPV’ – corner point verification, ‘MStrain’ – multi-scale training, * – multi-scale testing.*
              
 ## Segm AP(%) on COCO test-dev
 |Method            |  Backbone       | epoch |  AP  | AP<sub>50</sub> | AP<sub>75</sub> | AP<sub>S</sub> | AP<sub>M</sub> | AP<sub>L</sub> |
@@ -73,7 +73,7 @@ by [Kaiwen Duan](https://scholar.google.com/citations?hl=zh-CN&user=TFHRaZUAAAAJ
 | LSNet*           | X-101-64x4d-DCN | 30    | 39.7 |      65.5       |      41.3       |        25.5     |      41.3      |      50.4     |
 | LSNet*           | R2-101-DCN      | 30    | 40.2 |      66.2       |      42.1       |        25.8     |      42.2      |      51.0     |
 
-*Comparison of LSNet to the sate-of-the-art methods in instance segmentation task on the COCO test-dev set. Our LSNet achieves the state-of-the-art accuracy for contour-based instance segmentation. ‘R’: ResNet, ‘X’: ResNeXt, ‘HG’: Hourglass, ‘R2’:Res2Net, ‘*’: multi-scale testing.*
+*Comparison of LSNet to the sate-of-the-art methods in instance segmentation task on the COCO test-dev set. Our LSNet achieves the state-of-the-art accuracy for contour-based instance segmentation. ‘R’: ResNet, ‘X’: ResNeXt, ‘HG’: Hourglass, ‘R2’:Res2Net, *: multi-scale testing.*
 
 ![Graph](https://github.com/Duankaiwen/LSNet/blob/main/code/resources/pose.png)
 
