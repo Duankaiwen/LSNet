@@ -18,10 +18,12 @@ by [Kaiwen Duan](https://scholar.google.com/citations?hl=zh-CN&user=TFHRaZUAAAAJ
 **If you encounter any problems in using our code, please contact Kaiwen Duan: kaiwenduan@outlook.com**
 
 ## Bbox AP(%) on COCO test-dev
-|Method          |  Backbone | epoch | MS<sub>train<sub> |  FPS  |  AP  | AP<sub>50</sub> | AP<sub>75</sub> | AP<sub>S</sub> | AP<sub>M</sub> | AP<sub>L</sub> |
-| :------------- | --------- |
-| *Anchor-based:*
-|Libra R-CNN  | X-101-64x4d | 12  |      Y            |  8.5  | 43.0 |     64.0        |       47.0      |      25.3      |      45.6      |      54.6      |
+| Can Reorder | 2nd operation |2nd operation |2nd operation |
+| :---: | --- |
+|1st operation|Normal Load <br/>Normal Store| Volatile Load <br/>MonitorEnter|Volatile Store<br/> MonitorExit|
+|Normal Load <br/> Normal Store| | | No|
+|Volatile Load <br/> MonitorEnter| No|No|No|
+|Volatile store <br/> MonitorExit| | No|No|
 
 
                                                                                                                        
