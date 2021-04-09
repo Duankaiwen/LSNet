@@ -22,7 +22,6 @@ by [Kaiwen Duan](https://scholar.google.com/citations?hl=zh-CN&user=TFHRaZUAAAAJ
 | :------------- | :-------:       | :---: | :---------------: | :--: | :-------------: | :-------------: | :------------: | :------------: | :------------: | 
 |                |   
 | *Anchor-based:*|   
-|                |   
 |Libra R-CNN     | X-101-64x4d     | 12  |      N            | 43.0 |     64.0        |       47.0      |      25.3      |      45.6      |      54.6      |
 | AB+FSAF*       | X-101-64x4d     | 18  |      Y            | 44.6 |     65.2        |       48.6      |      29.7      |      47.1      |      54.6      |
 | FreeAnchor*    | X-101-32x8d     | 24  |      Y            | 47.3 |     66.3        |       51.5      |      30.6      |      50.4      |      59.0      |
@@ -33,7 +32,7 @@ by [Kaiwen Duan](https://scholar.google.com/citations?hl=zh-CN&user=TFHRaZUAAAAJ
 | YOLOv4-P7*     | CSP-P7          | 450 |      Y            | 56.0 |     73.3        |       61.2      |      38.9      |      60.0      |      68.6      |
 |                |   
 | *Anchor-free:* |
-|                |   
+| ExtremeNet     | HG-104          |200  |      Y            | 43.2 |     59.8        |       46.4      |      24.1       |     46.0      |57.1            | 
              
 <div align=center>
 <img src=https://github.com/Duankaiwen/LSNet/blob/main/code/resources/segm.png width = "450" height = "400" alt="" align=center />
