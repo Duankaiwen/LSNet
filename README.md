@@ -114,4 +114,12 @@ respectively. For LSNet w/ kps-box, we fine-tune the model from the LSNet w/ kps
 *We compared with the CenterNet to show that our LSNet w/ ‘obj-box’ tends to predict more human pose of small scales, which are not annotated on the dataset. Only pose results with scores higher than 0:3 are shown for both methods.*
 </div>
 
+<div align=center>
+<img src=https://github.com/Duankaiwen/LSNet/blob/main/code/resources/pose2.png width = "600" height = "1200" alt="" align=center />
+  
+*Left: LSNet uses the object bounding boxes to assign training samples. Right: LSNet uses the keypoint-boxes to
+assign training samples. Although LSNet with keypoint-boxes enjoys higher AP score, its ability of perceiving multi-scale
+human instances is weakened.*
+</div>
+
 
