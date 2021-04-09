@@ -18,17 +18,14 @@ by [Kaiwen Duan](https://scholar.google.com/citations?hl=zh-CN&user=TFHRaZUAAAAJ
 **If you encounter any problems in using our code, please contact Kaiwen Duan: kaiwenduan@outlook.com**
 
 ## Bbox AP(%) on COCO test-dev
-|Method       |  Backbone | epoch | MS<sub>train<sub> |  FPS  |  AP  | AP<sub>50</sub> | AP<sub>75</sub> | AP<sub>S</sub> | AP<sub>M</sub> | AP<sub>L</sub> |
-| :---------- | :-------: | :---: | :---------------: | :---: | :--: | :-------------: | :-------------: | :------------: | :------------: | :------------: |
-|             |                                                                                                                                             |
-|*Anchor-based:*                                                                                                                                           ||
+|Method        |  Backbone | epoch | MS<sub>train<sub> |  FPS  |  AP  | AP<sub>50</sub> | AP<sub>75</sub> | AP<sub>S</sub> | AP<sub>M</sub> | AP<sub>L</sub> |
+| :----------- | :-------: | :---: | :---------------: | :---: | :--: | :-------------: | :-------------: | :------------: | :------------: | :------------: |
+|              |                                                                                                                                             |
+|*Anchor-based:*                                                                                                                                             |
 |Libra R-CNN  | X-101-64x4d | 12  |      Y            |  8.5  | 43.0 |     64.0        |       47.0      |      25.3      |      45.6      |      54.6      |
- 
+[Prototype table]
 
                                                                                                                        
-
-*The location-sensitive visual recognition tasks, including object detection, instance segmentation, and human pose estimation, can be formulated into localizing an anchor point (in red) and a set of landmarks (in green). Our work aims to offer a unified framework for these tasks.*
-
 <div align=center>
 <img src=https://github.com/Duankaiwen/LSNet/blob/main/code/resources/segm.png width = "450" height = "400" alt="" align=center />
 </div>
