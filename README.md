@@ -42,7 +42,14 @@ by [Kaiwen Duan](https://scholar.google.com/citations?hl=zh-CN&user=TFHRaZUAAAAJ
 | BorderDet*     | X-101-64x4d-DCN | 24  |      Y            | 50.3 |     68.9        |       55.2      |      32.8       |     52.8      |      62.3      |
 | FCOS-BiFPN     | X-101-32x8-DCN  | 24  |      Y            | 50.4 |     68.9        |       55.0      |      33.2       |     53.0      |      62.7      |
 | RepPointsV2*   | X-101-64x4d-DCN | 24  |      Y            | 52.1 |     70.1        |       57.5      |      34.5       |     54.6      |      63.6      |
+|                |
 | LSNet          | R-50            | 24  |      Y            | 44.8 |     64.1        |       48.8      |      26.6       |     47.7      |      55.7      |
+| LSNet          | X-101-64x4d     | 24  |      Y            | 48.2 |     67.6        |       52.6      |      29.6       |     51.3      |      60.5      |
+| LSNet          | X-101-64x4d-DCN | 24  |      Y            | 49.6 |     69.0        |       54.1      |      30.3       |     52.8      |      62.8      |
+| LSNet-CPV      | X-101-64x4d-DCN | 24  |      Y            | 50.4 |     69.4        |       54.5      |      31.0       |     53.3      |      64.0      |
+| LSNet-CPV      | R2-101-DCN      | 24  |      Y            | 51.1 |     70.3        |       55.2      |      31.2       |     54.3      |      65.0      |
+| LSNet-CPV*     | R2-101-DCN      | 24  |      Y            | 53.5 |     71.1        |       59.2      |      35.2       |     56.4      |      65.8      |
+
 
              
 <div align=center>
