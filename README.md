@@ -102,7 +102,7 @@ respectively. For LSNet w/ kps-box, we fine-tune the model from the LSNet w/ kps
 ## Visualization
 
 <div align=center>
-<img src=https://github.com/Duankaiwen/LSNet/blob/main/code/resources/dect-segm-pose.png width = "1000" height = "280" alt="" align=center />
+<img src=https://github.com/Duankaiwen/LSNet/blob/main/code/resources/dect-segm-pose.png width = "1000" height = "250" alt="" align=center />
   
 *Some location-sensitive visual recognition results on the MS-COCO validation set.*
 </div>
