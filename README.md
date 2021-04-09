@@ -73,7 +73,7 @@ by [Kaiwen Duan](https://scholar.google.com/citations?hl=zh-CN&user=TFHRaZUAAAAJ
 | LSNet*           | X-101-64x4d-DCN | 30    | 39.7 |      65.5       |      41.3       |        25.5     |      41.3      |      50.4     |
 | LSNet*           | R2-101-DCN      | 30    | 40.2 |      66.2       |      42.1       |        25.8     |      42.2      |      51.0     |
 
-*Comparison of LSNet to the sate-of-the-art methods in instance segmentation task on the COCO test-dev set. Our LSNet achieves the state-of-the-art accuracy for contour-based instance segmentation. ‘R’: ResNet, ‘X’: ResNeXt, ‘HG’: Hourglass, ‘R2’:Res2Net, *: multi-scale testing.*
+*Comparison of LSNet to the sate-of-the-art methods in instance segmentation task on the COCO test-dev set. Our LSNet achieves the state-of-the-art accuracy for contour-based instance segmentation. ‘R’ - ResNet, ‘X’ - ResNeXt, ‘HG’ - Hourglass, ‘R2’ - Res2Net, * -  multi-scale testing.*
 
 ![Graph](https://github.com/Duankaiwen/LSNet/blob/main/code/resources/pose.png)
 
