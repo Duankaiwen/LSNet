@@ -143,16 +143,19 @@ Generate extreme point annotation from segmentation:
 ## Installation
 
 ##### 1. Installing cocoapi 
-- ```cd code/cocoapi```
+- ```cd cocoapi```
 - ```python setup.py develop```
+- ```cd ..```
 
 ##### 2. Installing mmcv 
 - ```cd code/mmcv```
 - ```pip install -e.```
+- ```cd ..```
 
 ##### 3. Installing mmdet 
 - ```cd code```
 - ```python setup.py develop```
+- ```cd ..```
 
 ## Training and Evaluation
 Our LSNet is based on [mmdetection](https://github.com/open-mmlab/mmdetection). Please check [with existing dataset](https://github.com/open-mmlab/mmdetection/blob/master/docs/1_exist_data_model.md) for Training and Evaluation.
