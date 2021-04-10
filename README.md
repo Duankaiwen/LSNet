@@ -130,6 +130,7 @@ The dataset directory should be like this:
 │   ├── coco
 │   │   ├── annotations
 │   │   ├── images
+            ├── train2017
             ├── val2017
             ├── test2017
 ```
