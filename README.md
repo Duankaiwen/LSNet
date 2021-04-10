@@ -154,7 +154,6 @@ Generate extreme point annotation from segmentation:
 
 ##### 3. Installing mmdet 
 - ```python setup.py develop```
-- ```cd ..```
 
 ## Training and Evaluation
 Our LSNet is based on [mmdetection](https://github.com/open-mmlab/mmdetection). Please check [with existing dataset](https://github.com/open-mmlab/mmdetection/blob/master/docs/1_exist_data_model.md) for Training and Evaluation.
