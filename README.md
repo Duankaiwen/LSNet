@@ -148,7 +148,7 @@ Generate extreme point annotation from segmentation:
 - ```cd ..```
 
 ##### 2. Installing mmcv 
-- ```cd code/mmcv```
+- ```cd mmcv```
 - ```pip install -e.```
 - ```cd ..```
 
