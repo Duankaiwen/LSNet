@@ -143,9 +143,9 @@ Generate extreme point annotation from segmentation:
 ## Installation
 
 ##### 1. Installing cocoapi 
-- ```cd cocoapi```
+- ```cd cocoapi/pycocotools```
 - ```python setup.py develop```
-- ```cd ..```
+- ```cd ../..```
 
 ##### 2. Installing mmcv 
 - ```cd mmcv```
