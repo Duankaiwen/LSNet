@@ -153,7 +153,6 @@ Generate extreme point annotation from segmentation:
 - ```cd ..```
 
 ##### 3. Installing mmdet 
-- ```cd code```
 - ```python setup.py develop```
 - ```cd ..```
 
