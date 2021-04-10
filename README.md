@@ -123,7 +123,7 @@ assign training samples. Although LSNet with keypoint-boxes enjoys higher AP sco
 human instances is weakened.*
 </div>
 
-## Installation.
+## Installation
 The dataset directory should be like this:
 ```plain
 ├── data
@@ -145,6 +145,11 @@ The dataset directory should be like this:
 ##### 3. Installing mmdet 
 - ```cd code```
 - ```python setup.py develop```
+
+## Preparation
+- ```cd code/tools```
+- ```python gen_coco_lsvr.py```
+- ```cd ..```
 
 ## Training and Evaluation
 Our LSNet is based on [mmdetection](https://github.com/open-mmlab/mmdetection). Please check [with existing dataset](https://github.com/open-mmlab/mmdetection/blob/master/docs/1_exist_data_model.md) for Training and Evaluation.
