@@ -124,6 +124,8 @@ human instances is weakened.*
 </div>
 
 ## Preparation
+The master branch works with PyTorch 1.1.0
+
 The dataset directory should be like this:
 ```plain
 ├── data
