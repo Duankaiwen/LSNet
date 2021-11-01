@@ -315,7 +315,7 @@ class RandomFlip(object):
             'horizontal' and 'vertical'. Default: 'horizontal'.
     """
 
-    def __init__(self, flip_ratio=None, direction='horizontal', keep_poly_clockwise=False):
+    def __init__(self, flip_ratio=None, direction='horizontal', keep_poly_clockwise=True):
         self.flip_ratio = flip_ratio
         self.direction = direction
         self.keep_poly_clockwise = keep_poly_clockwise
